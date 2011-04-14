@@ -1,15 +1,11 @@
 Wrapper for the EveryBlock API
 ===============================
 
-Built by Harper Reed ([harper@nata2.org](mailto:harper@nata2.org)) - [@harper](http://twitter.com/harper)
-
-[git@github.com:harperreed/simple-everyblock.git](https://github.com/harperreed/simple-everyblock)
-
-You can get an API key here: [https://chicago.everyblock.com/api-signup/](https://chicago.everyblock.com/api-signup/)
-
-Documentation is here: [http://www.everyblock.com/apidocs/](http://www.everyblock.com/apidocs/)
-
-Google Group is here: [http://groups.google.com/group/everyblock-api/](http://groups.google.com/group/everyblock-api/)
+Built by Harper Reed ([harper@nata2.org](mailto:harper@nata2.org)) - [@harper](http://twitter.com/harper)    
+[git@github.com:harperreed/simple-everyblock.git](https://github.com/harperreed/simple-everyblock)    
+You can get an API key here: [https://chicago.everyblock.com/api-signup/](https://chicago.everyblock.com/api-signup/)    
+Documentation is here: [http://www.everyblock.com/apidocs/](http://www.everyblock.com/apidocs/)    
+Google Group is here: [http://groups.google.com/group/everyblock-api/](http://groups.google.com/group/everyblock-api/)    
 
 Notes:
 -----
