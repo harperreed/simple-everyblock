@@ -41,16 +41,16 @@ However, once you deal with the annoyance and you get the data - it is awesome
 Usage:
 ------
 `
-  >>> from simple_everyblock import simple_everyblock
-  >>> api = simple_everyblock(api_key=api_key)
-  >>> print api.get_metros()
-  [{'city': u'Atlanta', 'state': u'GA',...............
-  >>> print api.get_schemas('dc')[0]
-  {'url': u'http://dc.everyblock.com/commercial-real-estate/', ...............
-  >>> print api.get_location_types('dc')
-  [{'url': u'http://dc.everyblock.com/locatim.................
-  >>> print api.get_locations('dc','neighborhoods')
-  [{'url': u'http://dc.everyblock.com/locations/neighborhoods/bolling-air-force.......
-  >>> pri print api.get_newsitems('dc', '2011-40-13', '11')
+>>> from simple_everyblock import simple_everyblock
+>>> api = simple_everyblock(api_key=api_key)
+>>> print api.get_metros()
+[{'city': u'Atlanta', 'state': u'GA',...............
+>>> print api.get_schemas('dc')[0]
+{'url': u'http://dc.everyblock.com/commercial-real-estate/', ...............
+>>> print api.get_location_types('dc')
+[{'url': u'http://dc.everyblock.com/locatim.................
+>>> print api.get_locations('dc','neighborhoods')
+[{'url': u'http://dc.everyblock.com/locations/neighborhoods/bolling-air-force.......
+>>> pri print api.get_newsitems('dc', '2011-40-13', '11')
 `
 Should be simple
