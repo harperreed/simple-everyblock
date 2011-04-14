@@ -1,7 +1,7 @@
 Wrapper for the EveryBlock API
 ===============================
 
-Built by Harper Reed (harper@nata2.org) - @harper
+Built by Harper Reed ([harper@nata2.org](mailto:harper@nata2.org)) - [@harper](http://twitter.com/harper)
 
 [git@github.com:harperreed/simple-everyblock.git](https://github.com/harperreed/simple-everyblock)
 
