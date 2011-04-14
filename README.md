@@ -47,6 +47,6 @@ Usage:
     [{'url': u'http://dc.everyblock.com/locatim.................  
     >>> print api.get_locations('dc','neighborhoods')  
     [{'url': u'http://dc.everyblock.com/locations/neighborhoods/bolling-air-force.......  
-    >>> pri print api.get_newsitems('dc', '2011-40-13', '11')  
+    >>> print api.get_newsitems('dc', '2010-01-06-1900', '11')
 
 Should be simple
