@@ -1,32 +1,31 @@
-here is a wrapper for the EveryBlock API
-  Built by Harper Reed (harper@nata2.org) - @harper
-  git@github.com:harperreed/simple-everyblock.git
+Wrapper for the EveryBlock API
+===============================
 
-You can get an API key here:
-  https://chicago.everyblock.com/api-signup/
+Built by Harper Reed (harper@nata2.org) - @harper
 
-Documentation is here:
-  http://www.everyblock.com/apidocs/
+[git@github.com:harperreed/simple-everyblock.git](https://github.com/harperreed/simple-everyblock)
 
-Google Group is here:
-  http://groups.google.com/group/everyblock-api/
+You can get an API key here: [https://chicago.everyblock.com/api-signup/](https://chicago.everyblock.com/api-signup/)
+
+Documentation is here: [http://www.everyblock.com/apidocs/](http://www.everyblock.com/apidocs/)
+
+Google Group is here: [http://groups.google.com/group/everyblock-api/](http://groups.google.com/group/everyblock-api/)
 
 Notes:
-  For some reason I found this API a pain in the ass to deal with. One of the
-  reasons I built this class is to make it super easy. 
+-----
 
-  Hopefully this will help some people consume the data
+For some reason I found this API a pain in the ass to deal with. One of the reasons I built this class is to make it super easy. 
 
-  I used beutiful soup to handle the XML so it could be used in places that
-  lxml and the like cannot be used (App Engine).
+Hopefully this will help some people consume the data.
 
-  <small_rant>
-  A couple things have bothered me about this API since I started playing with
-  it. I figured I would put them here. 
+I used beutiful soup to handle the XML so it could be used in places that lxml and the like cannot be used (App Engine).
 
-  1) WTF are Schemas? They seem to complicate things.
+*<small_rant>*
+A couple things have bothered me about this API since I started playing with it. I figured I would put them here. 
 
-  2) WTF @ xml. This isn't 1998. Most people are going to want this data as an
+ * WTF are Schemas? They seem to complicate things.
+
+ * WTF @ xml. This isn't 1998. Most people are going to want this data as an
   object, so why not use JSON or some other machine serializable data format.
   If XML is important, then have it be an option. If XML is the only option,
   then treat it like xml: have DTDs and use Namespaces. 
@@ -59,4 +58,3 @@ Usage:
   >>> pri print api.get_newsitems('dc', '2011-40-13', '11')
 
   Should be simple
-
