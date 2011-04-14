@@ -21,6 +21,7 @@ Hopefully this will help some people consume the data.
 I used beutiful soup to handle the XML so it could be used in places that lxml and the like cannot be used (App Engine).
 
 *`<small_rant>`*
+
 A couple things have bothered me about this API since I started playing with it. I figured I would put them here. 
 
  * WTF are Schemas? They seem to complicate things.
@@ -34,10 +35,12 @@ A couple things have bothered me about this API since I started playing with it.
 This API seems built to dissuade people from using the EB data. Why is it so hard to figure out? I have dealt with a few apis and I still don't understand exactly whats going on with this API.
 
 However, once you deal with the annoyance and you get the data - it is awesome
+
 *`</small_rant>`*
 
 Usage:
 ------
+`
   >>> from simple_everyblock import simple_everyblock
   >>> api = simple_everyblock(api_key=api_key)
   >>> print api.get_metros()
@@ -49,5 +52,5 @@ Usage:
   >>> print api.get_locations('dc','neighborhoods')
   [{'url': u'http://dc.everyblock.com/locations/neighborhoods/bolling-air-force.......
   >>> pri print api.get_newsitems('dc', '2011-40-13', '11')
-
-  Should be simple
+`
+Should be simple
