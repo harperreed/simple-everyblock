@@ -20,31 +20,24 @@ Hopefully this will help some people consume the data.
 
 I used beutiful soup to handle the XML so it could be used in places that lxml and the like cannot be used (App Engine).
 
-*<small_rant>*
+*`<small_rant>`*
 A couple things have bothered me about this API since I started playing with it. I figured I would put them here. 
 
  * WTF are Schemas? They seem to complicate things.
 
- * WTF @ xml. This isn't 1998. Most people are going to want this data as an
-  object, so why not use JSON or some other machine serializable data format.
-  If XML is important, then have it be an option. If XML is the only option,
-  then treat it like xml: have DTDs and use Namespaces. 
+ * WTF @ xml. This isn't 1998. Most people are going to want this data as an object, so why not use JSON or some other machine serializable data format. If XML is important, then have it be an option. If XML is the only option, then treat it like xml: have DTDs and use Namespaces. 
 
-  3) Why only 24 hrs of data? You are creating a relationship here the API consumers 
-  will have to cache and store all of *your* data, because it is impossible to get at
-  the data past 24hrs. You lose control of your data.
+ * Why only 24 hrs of data? You are creating a relationship here the API consumers will have to cache and store all of *your* data, because it is impossible to get at the data past 24hrs. You lose control of your data.
 
-  4) Where is my API key? If you lose it, you have to get another one. I wish
-  it were associated with my EB account. 
+ * Where is my API key? If you lose it, you have to get another one. I wish it were associated with my EB account. 
 
-  This API seems built to dissuade people from using the EB data. Why is it 
-  so hard to figure out? I have dealt with a few apis and I still don't 
-  understand exactly whats going on here. 
+This API seems built to dissuade people from using the EB data. Why is it so hard to figure out? I have dealt with a few apis and I still don't understand exactly whats going on with this API.
 
-  Once you get the data, it is awesome.
-  </small_rant>
+However, once you deal with the annoyance and you get the data - it is awesome
+*`</small_rant>`*
 
 Usage:
+------
   >>> from simple_everyblock import simple_everyblock
   >>> api = simple_everyblock(api_key=api_key)
   >>> print api.get_metros()
